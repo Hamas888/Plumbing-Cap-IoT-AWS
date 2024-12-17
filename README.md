@@ -1,6 +1,6 @@
 # Plumbing Cap - Drainage Blockage Alert System
 
-![Project Image](https://drive.google.com/uc?export=view&id=15xmFmcu_6ijC77EyhqKIXPR4fQtI_uQ0) 
+![Project Image](https://drive.google.com/uc?export=view&id=) 
 
 ## Overview
 The Plumbing Cap with Blockage Detection is a state-of-the-art drainage solution designed to monitor and detect pipe blockages, providing real-time alerts for efficient maintenance. With two variants 2-inch for industrial applications and 4-inch for domestic use, this device offers seamless integration with AWS, enabling remote monitoring and management. The product is part of the Aquazen brand, which provides a range of plumbing solutions, all of which are integrated into a comprehensive AWS architecture.
