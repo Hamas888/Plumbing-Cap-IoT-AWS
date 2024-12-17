@@ -26,6 +26,7 @@ The Plumbing Cap with Blockage Detection is a state-of-the-art drainage solution
   - **Power Consumption**: Low-power with sleep mode and periodic wake-ups
   - **Target Use**: Industrial applications, large fleets, and environments requiring extensive network coverage
   - **Size**: 2-inch drainage pipes
+  - **Power Source**: Coin-cell battery
 
 - **4-Inch WiFi-Based Model**
   - **Microcontroller**: ESP8266
@@ -35,6 +36,7 @@ The Plumbing Cap with Blockage Detection is a state-of-the-art drainage solution
   - **Power Consumption**: Low-power with periodic wake-ups and manual checks
   - **Target Use**: Domestic use, offering an easy setup process for residential installations
   - **Size**: 4-inch drainage pipes
+  - **Power Source**: 9V battery
 
 ## Key Functions
 
@@ -43,7 +45,7 @@ The Plumbing Cap with Blockage Detection is a state-of-the-art drainage solution
    - Continuous monitoring ensures that blockages are reported promptly to prevent potential issues.
 
 2. **Low-Power Operation**
-   - The device operates in a low-power sleep mode, waking up every 30 minutes to check for blockages. In case of a blockage, the wake-up frequency reduces to 10 minutes for more frequent monitoring.
+   - The device operates in a low-power sleep mode, waking up every 30 minutes to check for blockages. In case of a blockage, the wake-up frequency is reduced to 10 minutes for more frequent monitoring.
 
 3. **AWS Cloud Integration**
    - All data collected by the device is sent to AWS, where it is processed and managed. AWS handles the storage, alerting, and further analysis.
@@ -56,6 +58,25 @@ The Plumbing Cap with Blockage Detection is a state-of-the-art drainage solution
 5. **Easy Setup (WiFi Variant)**
    - The 4-inch WiFi model features a simple configuration page for easy WiFi credential input, simplifying installation for residential users.
    - No manual setup or complex configuration is needed for this variant.
+
+## Mechanical Design
+
+- **High-Quality Industrial Design**: The device features an injection-molded, high-smooth plastic enclosure, ensuring durability and strength under tough conditions.
+- **Waterproofing**: The enclosure includes proper gasket seals for effective waterproofing, ensuring reliability even in harsh environments.
+- **Corrosion-Resistant Terminals**: The contact sensor terminals are made from corrosion-resistant materials to maintain accurate detection over time.
+- **Easy Battery Replacement**: The design is user-friendly, making it simple to open and replace the battery when needed.
+
+## Hardware
+
+- **2-Inch LoRaWAN Model**: Uses a standard Dragino Contact Sensor Module, powered by a coin-cell battery, making it compact and efficient for industrial use.
+- **4-Inch WiFi Model**: Powered by an ESP8266 microcontroller, which works on a 9V battery, offering a reliable connection to AWS via WiFi.
+
+## Firmware
+
+The firmware is optimized for speed and efficiency, ensuring minimal power consumption while delivering maximum performance. This optimization allows the device to operate for up to 6 to 8 months, depending on the number of blockages detected.
+
+- **Over-the-Air (OTA) Firmware Support**: The device can receive OTA updates from AWS, ensuring the firmware remains up-to-date. It can quickly download updates from AWS S3 buckets and apply them without user intervention.
+- **Firmware Recovery**: In case of a failed update, the device is designed to recover gracefully, avoiding any risk of device failure or bricking.
 
 ## Installation and Setup
 
