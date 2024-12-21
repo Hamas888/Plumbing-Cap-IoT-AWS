@@ -1,0 +1,4 @@
+WiFiManager
+knolleary/PubSubClient@^2.8
+arduino-libraries/NTPClient@^3.2.1
+bblanchon/ArduinoJson@^7.0.4
